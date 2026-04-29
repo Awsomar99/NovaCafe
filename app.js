@@ -166,14 +166,12 @@ document.addEventListener("DOMContentLoaded", () => {
         .replace(/'/g, "&#039;");
     }
 
-    function renderMenu(category = "Popular") {
+    function renderMenu(category = "popular") {
       if (!grid) {
         return;
       }
 
-      const filteredItems = category === "Popular"
-        ? menuItems
-        : menuItems.filter(item => item.category === category);
+      const filteredItems = menuItems.filter(item => item.category === category);
 
       if (!filteredItems.length) {
         grid.innerHTML = `<p class="empty-menu">No products found in this category.</p>`;
@@ -196,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (grid) {
-      renderMenu("Popular");
+      renderMenu("popular");
     }
 
     buttons.forEach(button => {
