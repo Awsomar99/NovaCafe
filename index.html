@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Café & Eatery | Modern Cafe Website Concept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Nova Cafe & Eatery home">
+      <span class="brand-mark"><span></span></span>
+      <span>NOVA</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#experience">Experience</a>
+      <a href="#menu">Menu</a>
+      <a href="#space">The Space</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="nav-cta" href="#menu">Explore Menu</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="eyebrow">Burj Jassim · Kuwait City</span>
+          <h1>Bright days, clean comfort.</h1>
+          <p class="hero-lead">
+            A premium café and eatery website concept inspired by Nova’s daylight-filled interiors, blue star identity, warm arches, soft wood tones, and wholesome all-day menu.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn-primary">View Signature Picks</a>
+            <a href="#visit" class="btn-secondary">Plan Your Visit</a>
+          </div>
+          <div class="hero-meta">
+            <div class="meta-card">
+              <strong>4.8</strong>
+              <span>Delivery rating</span>
+            </div>
+            <div class="meta-card">
+              <strong>6:30</strong>
+              <span>Early cafe start</span>
+            </div>
+            <div class="meta-card">
+              <strong>All Day</strong>
+              <span>Breakfast & dining</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-card reveal" aria-label="Stylized Nova Cafe interior illustration">
+          <div class="arch-room">
+            <span class="pendant one"></span>
+            <span class="pendant two"></span>
+            <span class="pendant three"></span>
+            <div class="arch-row">
+              <span class="arch"></span>
+              <span class="arch"></span>
+              <span class="arch"></span>
+            </div>
+            <div class="counter"></div>
+            <div class="tables">
+              <span class="table-scene"></span>
+              <span class="table-scene"></span>
+              <span class="table-scene"></span>
+            </div>
+          </div>
+          <div class="floating-menu-card">
+            <div class="mini-title">
+              <span>Today’s mood</span>
+              <span>✦</span>
+            </div>
+            <div class="mini-row"><span>Iced Spanish Latte</span><strong>KD 2.250</strong></div>
+            <div class="mini-row"><span>Salmon Bowl</span><strong>KD 5.900</strong></div>
+            <div class="mini-row"><span>Protein Pancake</span><strong>KD 3.000</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">The Nova Experience</div>
+            <h2 class="section-title">Designed for coffee, comfort, and focused time.</h2>
+          </div>
+          <p class="section-copy">
+            The site direction uses Nova’s real-world cues: a bright glass-dome atmosphere, cozy work-friendly tables, organic ingredients, grab-and-go convenience, and a polished local Kuwait identity.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card reveal">
+            <div class="experience-icon">☕</div>
+            <h3>Premium Coffee Bar</h3>
+            <p>Spanish lattes, V60, cold brew, espresso classics, matcha, iced shaken drinks, and gathering canteens for groups.</p>
+          </article>
+          <article class="experience-card reveal">
+            <div class="experience-icon">⌁</div>
+            <h3>Work-Friendly Cafe</h3>
+            <p>Soft seating, natural light, calm energy, and a layout made for guests who want to stay, study, meet, and recharge.</p>
+          </article>
+          <article class="experience-card reveal">
+            <div class="experience-icon">🥗</div>
+            <h3>Wholesome Eatery</h3>
+            <p>Breakfast, bowls, salads, protein shakes, wraps, bakery items, and lighter comfort food with a clean modern feel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">Menu Highlights</div>
+            <h2 class="section-title">A curated preview of Nova favorites.</h2>
+          </div>
+          <p class="section-copy">
+            Filter by category to explore a conversion-ready menu section. The final production version can connect to Sanity CMS, Firebase, or a real backend.
+          </p>
+        </div>
+
+        <div class="menu-shell">
+          <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+           <!----- <button class="tab-btn active" data-category="all">All</button> --->
+            <button class="tab-btn" data-category="popular">Popular</button>
+            <button class="tab-btn" data-category="sambosa">Sambosa</button>
+            <button class="tab-btn" data-category="canteen">Canteens</button>
+            <button class="tab-btn" data-category="fatayer">Fatayer</button>
+            <button class="tab-btn" data-category="mains">Mains</button>
+            <button class="tab-btn" data-category="wraps">Wraps</button>
+            <button class="tab-btn" data-category="summer">Summer</button>
+            <button class="tab-btn" data-category="protein">Protein</button>
+            <button class="tab-btn" data-category="salads">Salads</button>
+            <button class="tab-btn" data-category="appetizer">Appetizer</button>
+            <button class="tab-btn" data-category="bakery">Bakery</button>
+            <button class="tab-btn" data-category="fresh">Fresh Press</button>
+            <button class="tab-btn" data-category="coffee-cold">Cold Coffee</button>
+            <button class="tab-btn" data-category="coffee-hot">Hot Coffee</button>
+            <button class="tab-btn" data-category="shaken">Iced Shaken</button>
+            <button class="tab-btn" data-category="tea">Iced Tea</button>
+            <button class="tab-btn" data-category="mocktails">Mocktails</button>
+            <button class="tab-btn" data-category="merchandise">Merch</button>
+          </div>
+          <div class="menu-grid" id="menuGrid">
+            <article class="menu-item">
+              <div class="dish-visual"></div>
+              <div class="menu-top">
+                <h3>Whole Grain Pancakes</h3>
+                <span class="price">KD 2.750</span>
+              </div>
+              <p>Whole grain pancake, mixed berries, and maple syrup.</p>
+              <div class="tag-list"><span class="tag">Popular</span><span class="tag">Breakfast</span></div>
+            </article>
+            <article class="menu-item">
+              <div class="dish-visual"></div>
+              <div class="menu-top">
+                <h3>Pink Pasta with Chicken</h3>
+                <span class="price">KD 4.500</span>
+              </div>
+              <p>Pasta with tomato sauce, parmesan cheese, and chicken breast.</p>
+              <div class="tag-list"><span class="tag">Popular</span><span class="tag">Pasta</span></div>
+            </article>
+            <article class="menu-item">
+              <div class="dish-visual"></div>
+              <div class="menu-top">
+                <h3>Iced Spanish Latte</h3>
+                <span class="price">KD 2.250</span>
+              </div>
+              <p>Cold Spanish latte from Nova's coffee bar.</p>
+              <div class="tag-list"><span class="tag">Coffee</span><span class="tag">Cold</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="space" class="gallery-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">Interior Direction</div>
+            <h2 class="section-title">Arches, sunlight, blush tones, and Nova blue.</h2>
+          </div>
+          <p class="section-copy">
+            The layout translates Nova’s interior into a digital identity: premium editorial typography, soft cafe textures, glass-dome geometry, and warm hospitality.
+          </p>
+        </div>
+        <div class="gallery-strip reveal">
+          <article class="gallery-card"><h3>Glass dome daylight</h3></article>
+          <article class="gallery-card"><h3>Blue star identity</h3></article>
+          <article class="gallery-card"><h3>Warm pastry counter</h3></article>
+          <article class="gallery-card"><h3>Calm work corners</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="visit">
+      <div class="container">
+        <div class="visit-card reveal">
+          <div class="visit-info">
+            <div class="section-kicker">Visit Nova</div>
+            <h2 class="section-title">Your bright spot in Burj Jassim.</h2>
+            <p class="section-copy">
+              Add ordering, table booking, WhatsApp contact, Google Maps, Instagram feed, and CMS-powered menu management for the full web app version.
+            </p>
+            <div class="visit-list">
+              <div class="visit-row"><span>Location</span><strong>Burj Jassim, Kuwait City</strong></div>
+              <div class="visit-row"><span>Hours</span><strong>Daily · 6:30 AM – 11:30 PM</strong></div>
+              <div class="visit-row"><span>Concept</span><strong>Healthy · Organic · Dessert</strong></div>
+            </div>
+          </div>
+          <div class="map-card" aria-label="Stylized map pointing to Burj Jassim"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Nova Café & Eatery website concept.</p>
+      <p>Designed as a premium landing page demo. Replace visual placeholders with licensed brand photography.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
